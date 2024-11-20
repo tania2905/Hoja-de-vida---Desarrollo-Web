@@ -119,3 +119,109 @@ HTML
 
 </body>
 </html>
+
+
+
+CSS
+
+
+.contenedor {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.borde{
+    border-bottom: solid 3px;
+    color: black;
+}
+
+.imagenperfil img {
+    width: 150px; 
+    border-radius: 60%; 
+    margin: 0 auto;
+}
+
+.borde {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  .contenedor {
+    max-width: 800px; 
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.formacion {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.formacion ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; 
+}
+
+.certificados {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center; 
+  }
+  
+  .certificados ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; 
+  }
+
+  .certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .certificado {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .certificado i {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .certificados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .certificado {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9; /* Color de fondo suave */
+  }
+  
+  .certificado i {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
